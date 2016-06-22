@@ -1,0 +1,10 @@
+// Customize variables
+// This gets loaded after bootstrap/variables is loaded, so you can refer to bootstrap variables
+
+$brand-secondary:         #96ce35;
+
+@mixin text-truncate {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}

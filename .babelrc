@@ -1,0 +1,21 @@
+{
+  "presets": ["es2015", "react", "stage-0"],
+  "env": {
+    "development": {
+      "plugins": [
+        'react-html-attrs',
+        'transform-class-properties',
+        [
+          "react-transform",
+          {
+            "transforms": [{
+              "transform": "react-transform-hmr",
+              "imports": ["react"],
+              "locals": ["module"]
+            }]
+          }
+        ]
+      ]
+    }
+  }
+}
