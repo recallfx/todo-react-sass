@@ -24,7 +24,7 @@
     "bootstrap-sass": "^3.3.5",
     "express": "^4.13.4",
     "font-awesome": "^4.5.0",
-    "jquery": "^2.2.4",
+    "jquery": "^3.4.0",
     "lodash": "^4.13.1",
     "react": "^0.14.2",
     "react-dom": "^0.14.2",
